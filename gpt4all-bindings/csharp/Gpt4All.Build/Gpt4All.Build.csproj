@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <RunWorkingDirectory>$(MSBuildProjectDirectory)</RunWorkingDirectory>
+        <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Cake.FileHelpers" Version="6.1.3" />
+        <PackageReference Include="Cake.Frosting" Version="3.0.0" />
+        <PackageReference Include="ClangSharp.PInvokeGenerator" Version="15.0.2" />
+        <PackageReference Include="LibGit2Sharp" Version="0.27.2" />
+    </ItemGroup>
+</Project>
