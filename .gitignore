@@ -178,3 +178,4 @@ CMakeLists.txt.user
 gpt4all-chat/models/*
 build_*
 build-*
+/gpt4all-bindings/csharp/Gpt4All.Tests/appsettings.local.json
